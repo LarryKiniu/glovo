@@ -38,4 +38,4 @@ function quickSort(array, start, end){
 
 let myArray = [5,4,3,2,1]
 
-console.log(quickSort(myArray, 0, [5,4,3,2,1].length - 1));
+console.log(quickSort(myArray, 0, myArray.length - 1));
